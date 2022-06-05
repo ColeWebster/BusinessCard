@@ -7,13 +7,13 @@ export default function Bio() {
       </div>
 
       <div className="bio_contact_buttons">
+        <button className="bio_email">Email</button>
         <button
           href="https://cwportfolio-app.herokuapp.com/"
           className="bio_portfolio"
         >
           Portfolio
         </button>
-        <button className="bio_email">Email</button>
       </div>
 
       <div className="bio_about_background">
