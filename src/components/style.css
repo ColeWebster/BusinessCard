@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 600px;
+    max-width: 605px;
     margin: auto;
     background-color: #253237;
 }
@@ -13,6 +13,7 @@
     height: 600px;
     width: 600px;
     margin: auto;
+    border-radius: 5px;
 }
 
 .bio_name {
@@ -55,13 +56,22 @@
     margin-right: 15px;
 }
 
+.bio_about_background{
+    margin-top: 30px
+}
+
 .bio_about_background > h2 {
     font-size: 30px;
     color: #DFE0E2;
+    margin: 0;
+    padding: 0;
 }
 
 .bio_about_background > p {
     font-size: 20px;
     color: #DFE0E2;
+    margin: 0;
+    padding: 0;
+    
 }
 
