@@ -30,7 +30,7 @@
 .bio_name > h2 {
     margin: 0;
     font-size: 30px;
-    color: #E6F9AF;
+    color: #C95D63;
 }
 
 .bio_contact_buttons {
@@ -46,7 +46,7 @@
     font-size: 25px;
     font-weight: bold;
     color: #253237;
-    background-color: #9DB4C0;
+    background-color: #EDAE49;
     width: 150px;
     height:50px;
     margin: 0 10px;
@@ -62,7 +62,7 @@
 
 .bio_about_background > h2 {
     font-size: 30px;
-    color: #DFE0E2;
+    color: #C95D63;
     margin: 0;
     padding: 0;
 }
@@ -70,8 +70,21 @@
 .bio_about_background > p {
     font-size: 20px;
     color: #DFE0E2;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    
+    display: flex;
+    justify-content: center;
+    white-space: break-spaces;
 }
 
+.bio {
+    height: 475px;
+    width: 500px;
+    text-align: left;
+}
+
+.skills {
+    text-align: left;
+    height: 200px;
+    width: 500px;
+}
