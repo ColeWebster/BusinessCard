@@ -9,8 +9,8 @@
 }
 
 .profilePhoto {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   margin: auto;
   border-radius: 5px;
 }
@@ -40,7 +40,6 @@
 }
 
 .bio_portfolio,
-.bio_email,
 .bio_resume {
   text-decoration: none;
   text-align: center;
@@ -104,11 +103,12 @@
   color: #253237;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
   .card,
   .footer,
   .bio_about_background {
-    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
     height: auto;
   }
 
@@ -120,9 +120,11 @@
     text-align: center;
   }
 
-  .profilePhoto {
+  .profilePhoto, .bio, .skills, .bio_name {
     width: auto;
     height: auto;
+    max-width: 100%;
+    font-size: 14px;
   }
 
   .bio {
