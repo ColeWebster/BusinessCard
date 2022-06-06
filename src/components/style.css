@@ -1,100 +1,135 @@
-  .card {
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    max-width: 600px;
-    margin: auto;
-    background-color: #253237;
+.card {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  background-color: #253237;
 }
 
 .profilePhoto {
-    height: 600px;
-    width: 600px;
-    margin: auto;
-    border-radius: 5px;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  border-radius: 5px;
 }
 
 .bio_name {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .bio_name > h1 {
-    margin: 0;
-    font-size: 60px;
-    letter-spacing: -0.03em;
-    color: #DFE0E2;
+  margin: 0;
+  font-size: 60px;
+  letter-spacing: -0.03em;
+  color: #dfe0e2;
 }
 
 .bio_name > h2 {
-    margin: 0;
-    font-size: 30px;
-    color: #C95D63;
+  margin: 0;
+  font-size: 30px;
+  color: #c95d63;
 }
 
 .bio_contact_buttons {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 10px;
 }
 
-.bio_portfolio, .bio_email, .bio_resume {
-    text-decoration: none;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #253237;
-    background-color: #EDAE49;
-    width: 150px;
-    height:50px;
-    margin: 0 15px;
-    padding: 3px;
+.bio_portfolio,
+.bio_email,
+.bio_resume {
+  text-decoration: none;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #253237;
+  background-color: #edae49;
+  width: 150px;
+  height: 50px;
+  margin: 0 15px;
+  padding: 3px;
 }
 
-.bio_about_background{
-    margin-top: 30px
+.bio_about_background {
+  margin-top: 30px;
 }
 
 .bio_about_background > h2 {
-    font-size: 30px;
-    color: #C95D63;
-    margin: 0;
-    padding: 30px;
+  font-size: 30px;
+  color: #c95d63;
+  margin: 0;
+  padding: 30px;
 }
 
 .bio_about_background > p {
-    font-size: 20px;
-    color: #DFE0E2;
-    margin: auto;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    white-space: break-spaces;
+  font-size: 20px;
+  color: #dfe0e2;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  white-space: break-spaces;
 }
 
 .bio {
-    height: 475px;
-    width: 500px;
-    text-align: left;
+  height: 475px;
+  width: 500px;
+  text-align: left;
 }
 
 .skills {
-    text-align: left;
-    height: 200px;
-    width: 500px;
-    padding-top: 150px;
+  text-align: left;
+  height: 200px;
+  width: 500px;
+  padding-top: 150px;
 }
 
 .footer {
-    background-color: #EDAE49;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 100px;
-    align-items: center;
+  background-color: #edae49;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
 }
 
-.linkedin, .twitter, .github, .email {
-    color: #253237;
+.linkedin,
+.twitter,
+.github,
+.email {
+  color: #253237;
+}
+
+@media only screen and (max-width: 600px) {
+  .card,
+  .footer,
+  .bio_about_background {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bio,
+  .skills {
+    word-wrap: break-word;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .profilePhoto {
+    width: auto;
+    height: auto;
+  }
+
+  .bio {
+    font-size: 12px;
+  }
+
+  .footer {
+      margin-top: 20px;
+  }
 }
