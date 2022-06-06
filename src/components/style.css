@@ -43,14 +43,13 @@
 .bio_resume {
   text-decoration: none;
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
   color: #253237;
   background-color: #edae49;
   width: 150px;
   height: 50px;
   margin: 0 15px;
-  padding: 3px;
 }
 
 .bio_about_background {
