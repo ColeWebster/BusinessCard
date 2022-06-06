@@ -34,26 +34,23 @@
 }
 
 .bio_contact_buttons {
-    font-size: 30px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding-top: 10px;
 }
 
-.bio_portfolio, .bio_email {
+.bio_portfolio, .bio_email, .bio_resume {
     text-decoration: none;
-    font-size: 25px;
+    text-align: center;
+    font-size: 28px;
     font-weight: bold;
     color: #253237;
     background-color: #EDAE49;
     width: 150px;
     height:50px;
-    margin: 0 10px;
-}
-
-.bio_portfolio {
-    margin-right: 15px;
+    margin: 0 15px;
+    padding: 3px;
 }
 
 .bio_about_background{
@@ -99,7 +96,6 @@
     align-items: center;
 }
 
-.linkedin {
-    height: 20px;
-    width: 20px;
+.linkedin, .twitter, .github {
+    color: #253237;
 }
