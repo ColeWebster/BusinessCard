@@ -47,11 +47,22 @@ export default function Bio() {
 
         <h2>Skills</h2>
         <p className="skills">
-          Front End: HTML5, CSS, Bootstrap, JavaScript, jQuery, AJAX, React and TailWindCSS
-          <br />
-          <br />
-          Back End: Node.js, Express, MySQL, Sequelize ORM, MongoDB, Mongoose
-          ODM, GraphQL
+          <p>
+            <span style={{ fontWeight: "bold" }}>Front End:</span>
+            HTML5, CSS, Bootstrap, JavaScript, jQuery, AJAX, React and
+            TailWindCSS
+          </p>
+
+          <p>
+            <span style={{ fontWeight: "bold" }}>Back End:</span>
+            Node.js, Express, MySQL, Sequelize ORM, MongoDB, Mongoose ODM,
+            GraphQL
+          </p>
+
+          <p>
+            <span style={{ fontWeight: "bold" }}>Tools:</span>
+            VS Code, Gitbash, Github, Github Desktop, Heroku{" "}
+          </p>
         </p>
       </div>
     </>
