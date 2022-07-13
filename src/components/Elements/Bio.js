@@ -47,8 +47,7 @@ export default function Bio() {
 
         <h2>Skills</h2>
         <p className="skills">
-          Front End: HTML5, CSS, Bootstrap, JavaScript, jQuery, AJAX, React an
-          TailWindCSS
+          Front End: HTML5, CSS, Bootstrap, JavaScript, jQuery, AJAX, React and TailWindCSS
           <br />
           <br />
           Back End: Node.js, Express, MySQL, Sequelize ORM, MongoDB, Mongoose
