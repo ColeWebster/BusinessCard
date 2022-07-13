@@ -82,9 +82,8 @@
 
 .skills {
   text-align: left;
-  height: 200px;
   width: 500px;
-  padding-top: 150px;
+  height: 100px;
   display: flex;
   flex-direction: row;
 }
